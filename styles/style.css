@@ -1,0 +1,449 @@
+html {
+	width: 1100px;
+}
+.header {
+	position: relative;
+	width: 1052px;
+	top: 92px;
+	left: 24px;
+	display: flex;
+	justify-content: space-between;
+	white-space: nowrap;
+	margin: 0;
+}
+.menu {
+	position: relative;
+	font-size: 18px;
+	font-weight: 400;
+	display: flex;
+	margin: 0;
+	width: 391.48px;
+	top: 24px;
+	left: 26px;
+	gap: 13px;
+	line-height: 21.13px;
+	white-space: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	object-fit: contain;
+}
+.textseelots {
+	position: relative;
+	display: flex;
+	white-space: nowrap;
+	width: 169px;
+	height: 22px;
+	bottom: 12px;
+	left: 89px;
+}
+.liwithoutcircles {
+	list-style-type: none; 
+}
+li {
+	list-style-type: circle; 
+}
+.textstyleseelots {
+	position: relative;
+	width: 151px;
+	bottom: 8px;
+	left: 11px;
+}
+.textabout {
+	display: flex;
+	white-space: nowrap;
+	bottom: 34px;
+	position: relative;
+	width: 129px;
+	height: 22px;
+	left: 270px;
+	
+}
+.textstyleabout {
+	width: 110px;
+	bottom: 8px;
+	position: relative;
+	left: 12px;
+}
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+a {
+  text-decoration: none;
+}
+.invisiblelinkstyle {
+	background: transparent;
+}
+.linkstyle {
+	background: transparent;
+	color: black;
+	text-decoration: underline;
+	text-underline-offset: 4px;
+	text-decoration-skip-ink: none;
+}
+.linkstylewhiteink {
+	position: absolute;
+	background: transparent;
+	color: white;
+	left: 31px;
+	top: 13px;
+	z-index: 2;
+}
+.imglots {
+	position: relative;
+	width: 334px;
+	height: 563px;
+	object-fit: contain;
+	z-index: 0;
+}
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.imglogo {
+	position: relative;
+	right: 73.48px;
+	width: 148px;
+	height: 105px;
+}
+.contacts {
+	display: inline-block;
+	float: left;
+    text-align: left;
+	position: relative;
+	width: 240.52px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24.3px;
+	font-style: normal;
+}
+.header-contacts {
+	right: 24.48px;
+	top: 6px;
+}
+.circle {
+	position: relative;
+	border: 1px solid #0F1C3F;
+	border-radius: 50%;
+	height: 7px;
+	width: 7px;
+}
+.clearfix {
+	clear: both;
+}
+.jambotrone {
+	position: relative;
+	width: 1100px;
+	height: 757px;
+	background-image: url("D:/lotus-flower.png");
+	background-size: contain;
+}
+.main {
+	position: relative;
+	top: 188px;
+}
+.text-check{
+	display: inline-block;
+	margin:0; 
+	padding:0;
+	height: 18px;
+}
+.subline {
+	display: inline-block;
+	white-space: nowrap;
+	position: relative;
+	width: 637px;
+	top: 435px;
+	left: 79px;
+	font-size: 22px;
+	font-weight: 400;
+	color: white;
+	word-spacing: 18px;
+	text-transform: uppercase;
+}
+.button {
+	white-space: nowrap;
+	display: flex;
+	width: 256px;
+	height: 51px;
+	position: relative;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	font-size: 22px;
+	top: 396px;
+	left: 795px;
+	font-weight: 500;
+	z-index: 1;
+}
+.buttrech {
+	position: relative;
+	width: 256px;
+	height: 51px;
+	right: 1px;
+	top: 0;
+	border: 2px solid white;
+	z-index: 0;
+}
+.title {
+	width: 1000px;
+	position: relative;
+	color: white; 
+	top: 165px;
+	left: 50px;
+	font-weight: 700;
+	font-size: 100px;
+	letter-spacing:30px;
+	word-spacing: -24px; 
+	z-index: 2;
+	
+}
+.wordono {
+	position: relative;
+	text-transform: uppercase;
+}
+.wordtebe {
+	position: relative;
+	right: 57px;
+	top: 126px;
+	text-transform: uppercase;
+}
+.wordnado {
+	position: relative;
+	display: flex;
+	left: 585px;
+	top: 129px;
+	word-spacing: -20px;
+	text-transform: uppercase;
+}
+.lots {
+	position: relative;
+	display: flex;
+	left: 24px;
+	top: 179px;
+	width: 1052px;
+	gap: 25px;
+	height: 692px;
+	grid-template-rows: 334px 334px 334px;
+	list-style: none;
+}
+.titlelots {
+	position: relative;
+	max-height: 47px;
+	font-size: 40px;
+	font-weight: 700;
+	left: 40px;
+}
+.lotfilm {
+	flex-grow: 1;
+	width: 334px;
+	position: relative;
+	top: 74px;
+	right: 146px;
+	display: flex;
+	height: 563px;
+	text-align: center;
+	background-color: #fff;
+	background-size: contain;
+	background-image: url("D:/photo.png");
+}
+.lotbook {
+	flex-grow: 1;
+	width: 334px;
+	position: relative;
+	bottom: 489px;
+	left: 214px;
+	display: flex;
+	height: 563px;
+	text-align: center;
+	background-color: #fff;
+	background-size: contain;
+	background-image: url("D:/photo_1.png");
+}
+.otstup {
+    margin-bottom: 24px;
+}
+.lotpicture {
+	flex-grow: 1;
+	width: 334px;
+	position: relative;
+	bottom: 1052px;
+	left: 573px;
+	display: flex;
+	height: 563px;
+	text-align: center;
+	background-color: #fff;
+	background-size: contain;
+	background-image: url("D:/photo_2.png");
+}
+.fonthead {
+	flex-shrink: 0;
+	text-transform: uppercase;
+	float: left;
+    text-align: left;
+	position: relative;
+	display: inline-block;
+	top: 51px;
+	text-decoration: solid underline 1px;
+	text-underline-offset: 3px;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+	left: 40px;
+	width: 254px;
+	color: white;
+	z-index: 1;
+	text-decoration-skip-ink: none;
+}
+.fontbot {
+	flex-shrink: 0;
+	float: left;
+    text-align: left;
+	position: relative;
+	display: flex;
+	bottom: 48px;
+	right: 214px;
+	font-size: 20px;
+	width: 254px;
+	font-weight: 400;
+	color: white;
+	line-height: 24px;
+	z-index: 1;
+	align-items: flex-end;
+
+}
+.more {
+	flex-shrink: 0;
+	display: inline-block;
+	position: relative;
+	width: 192px;
+	font-size: 20px;
+	font-weight: 400;
+	right: 106px;
+	bottom: 1021px;
+	text-decoration: solid underline 1px;
+	text-decoration-skip-ink: none;
+	text-underline-offset: 4px;
+	z-index: 1337;
+}
+.about {
+	position: relative;
+	width: 1052px;
+	height: 595px;
+	left: 24px;
+	top: 325px;
+}
+.logotype {
+	position: relative;
+	width: 240px;
+	height: 240px;
+	left: 47px;
+	top: 35px;
+	
+}
+.circleforlogo {
+	border: 120px solid black;
+	border-radius: 50%;
+	height: 240px;
+	width: 240px;
+}
+.logo-white {
+	position: relative;
+	width: 148px;
+	height: 114px;
+	left: 46.48px;
+	bottom: 176px;
+}
+.vectorforlogo {
+	position: relative;
+	height: 102px;
+	width: 136px;
+	left: 7px;
+	top: 3px;
+	border: 3.7px solid white;
+	outline: 3px solid white;
+}
+.vectorlogo {
+	position: relative;
+	height: 112.55px;
+	width: 141.54px;
+	left: 4px;
+	bottom: 100.25px;
+	object-fit: contain;
+}
+.about-column {
+	position: relative;
+	width: 693px;
+	left: 359px;
+	bottom: 103px;
+	font-size: 40px;
+	font-weight: 700;
+}
+.description-block {
+	position: relative;
+	width: 693px;
+	top: 98px;
+	font-size: 20px;
+	font-weight: 400;
+    text-align: left;
+	display: inline-block;
+	word-spacing: 0.33px;
+	line-height: 24px;
+}
+.footer {
+	position: relative;
+	height: 98px;
+	width: 1000px;
+	left: 50px;
+	top: 695px;
+}
+.contacts-footer {
+	left: 2px;
+}
+.menu-footer {
+	position: relative;
+	width: 149px;
+	bottom: 98px;
+	left: 426px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21.13px;
+	text-align: center;
+}
+.socials {
+	position: relative;
+	height: 48px;
+	width: 240px;
+	left: 760px;
+	bottom: 162px;	
+	object-fit: contain;
+}
+.photoyoutube {
+	position: relative;
+	height: 48px;
+	width: 48px;
+	left: 0;
+	top: 0;	
+	object-fit: contain;
+}
+.photovk {
+	position: relative;
+	height: 48px;
+	width: 48px;
+	left: 45px;
+	top: 0;	
+	object-fit: contain;
+}
+.photopint {
+	position: relative;
+	height: 48px;
+	width: 48px;
+	left: 88px;	
+	object-fit: contain;
+}
